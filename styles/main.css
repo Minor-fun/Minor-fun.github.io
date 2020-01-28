@@ -751,3 +751,19 @@ a {
   font-size: 16px;
   margin: 4px 8px;
 }
+
+      .sidebar {
+        width: 380px;
+      }
+      .main-container {
+        margin-left: 380px;
+      }
+    
+      .sidebar .top-container .site-nav {
+        color: #ffffff;
+      }
+    
+      body {
+        background: #fafafa;
+      }
+    

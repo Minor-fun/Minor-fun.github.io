@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zqws101.github.io/</id>
     <title>孟返文的个人博客</title>
-    <updated>2020-01-28T14:39:15.817Z</updated>
+    <updated>2020-01-28T15:18:17.518Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zqws101.github.io/"/>
     <link rel="self" href="https://zqws101.github.io/atom.xml"/>
@@ -11,12 +11,33 @@
     <icon>https://zqws101.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟返文的个人博客</rights>
     <entry>
-        <title type="html"><![CDATA[测试文字]]></title>
+        <title type="html"><![CDATA[家庭宽带已经被关闭80，443端口非常简单]]></title>
+        <id>https://zqws101.github.io/post/jia-ting-kuan-dai-yi-jing-bei-guan-bi-80443-duan-kou-fei-chang-jian-dan</id>
+        <link href="https://zqws101.github.io/post/jia-ting-kuan-dai-yi-jing-bei-guan-bi-80443-duan-kou-fei-chang-jian-dan">
+        </link>
+        <updated>2020-01-28T15:05:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。<br>
+<strong>该网站使用Gridea来搭建，搭建过程非常简单，不多说什么了</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。<br>
+<strong>该网站使用Gridea来搭建，搭建过程非常简单，不多说什么了</strong></p>
+<!-- more -->
+<p>我的群晖用的是DS3617 ，所以只需要在网站上挂一下群晖的跳转连接即可，这样就不用记住端口号了😄</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[通过Github搭建网站，便捷访问群晖服务]]></title>
         <id>https://zqws101.github.io/post/ce-shi-wen-zi</id>
         <link href="https://zqws101.github.io/post/ce-shi-wen-zi">
         </link>
         <updated>2020-01-28T12:34:57.000Z</updated>
-        <content type="html"><![CDATA[<p>这个第一个文章</p>
+        <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。<br>
+<strong>该网站使用Gridea来搭建，搭建过程非常简单，不多说什么了</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。<br>
+<strong>该网站使用Gridea来搭建，搭建过程非常简单，不多说什么了</strong></p>
+<!-- more -->
+<p>我的群晖用的是DS3617 ，所以只需要在网站上挂一下群晖的跳转连接即可，这样就不用记住端口号了😄</p>
 ]]></content>
     </entry>
 </feed>
