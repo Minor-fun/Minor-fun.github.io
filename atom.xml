@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zqws101.github.io/</id>
     <title>孟返文的个人博客</title>
-    <updated>2020-01-29T02:32:29.532Z</updated>
+    <updated>2020-01-29T02:38:55.777Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zqws101.github.io/"/>
     <link rel="self" href="https://zqws101.github.io/atom.xml"/>
@@ -16,10 +16,15 @@
         <link href="https://zqws101.github.io/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji">
         </link>
         <updated>2020-01-29T02:32:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>钢琴艺术的体裁与形式<br>
+前奏曲（Prelude）<br>
+前奏曲是一种小型的器乐曲。在15世纪，他是键盘乐器的第一种独立体裁，所以即兴、快速、短小成了前奏曲的基本特点。到18世纪，前奏曲成为真正的独立的带有即兴性质的的小型器乐曲。很多作曲家分辨创作了不同时期的钢琴前奏曲。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>钢琴艺术的体裁与形式<br>
 前奏曲（Prelude）<br>
-前奏曲是一种小型的器乐曲。在15世纪，他是键盘乐器的第一种独立体裁，所以即兴、快速、短小成了前奏曲的基本特点。到18世纪，前奏曲成为真正的独立的带有即兴性质的的小型器乐曲。很多作曲家分辨创作了不同时期的钢琴前奏曲。<br>
-比如《亚麻色头发的少女》《浓雾》《月照楼台》<br>
+前奏曲是一种小型的器乐曲。在15世纪，他是键盘乐器的第一种独立体裁，所以即兴、快速、短小成了前奏曲的基本特点。到18世纪，前奏曲成为真正的独立的带有即兴性质的的小型器乐曲。很多作曲家分辨创作了不同时期的钢琴前奏曲。</p>
+<!-- more -->
+<p>比如《亚麻色头发的少女》《浓雾》《月照楼台》<br>
 托卡塔（Toccata）<br>
 托卡塔愿意为“触技曲”也就是”触键技术曲“，起源于文艺复兴时期的意大利北部，是在前奏曲之后出现的又一个种最适合表现键盘乐汇到体裁，它一般速度较快、节奏均匀，具有炫技性，可以展示出演奏者手指的灵活。1590年，其标志为巴赫的《D小调托卡塔与赋格》BWV565、特点是无穷动式托卡塔。<br>
 变奏曲（Variation）<br>
@@ -89,12 +94,11 @@
         <link href="https://zqws101.github.io/post/ce-shi-wen-zi">
         </link>
         <updated>2020-01-28T12:34:57.000Z</updated>
-        <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。<br>
-<strong>该网站使用Gridea来搭建，搭建过程非常简单，不多说什么了</strong></p>
+        <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。<br>
-<strong>该网站使用Gridea来搭建，搭建过程非常简单，不多说什么了</strong></p>
+        <content type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。</p>
 <!-- more -->
+<p><strong>该网站使用Gridea来搭建，搭建过程非常简单，不多说什么了</strong></p>
 <p>我的群晖用的是DS3617 ，所以只需要在网站上挂一下群晖的跳转连接即可，这样就不用记住端口号了😄</p>
 ]]></content>
     </entry>
