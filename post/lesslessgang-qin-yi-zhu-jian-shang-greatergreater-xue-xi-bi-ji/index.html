@@ -1,116 +1,114 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
-
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>《钢琴艺术鉴赏》学习笔记 | 孟返文的个人博客</title>
-<meta name="description" content="孟返文的个人博客，集成有DS3617,Jellfyfin，QB远程下载">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://zqws101.github.io//favicon.ico?v=1580534195197">
-<link rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://zqws101.github.io//favicon.ico?v=1580534267195">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://zqws101.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://cdn.bootcss.com/aos/3.0.0-beta.6/aos.css" />
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://zqws101.github.io/">
-        <img src="https://zqws101.github.io//images/avatar.png?v=1580534195197" class="site-logo">
-        <h1 class="site-title">孟返文的个人博客</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            孟返文的个人博客
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-        
-          <a href="http://ds.minor.fun:8989/" class="site-nav" target="_blank">
-            qBittorrent
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      孟返文的个人博客，集成有DS3617,Jellfyfin，QB远程下载
-    </div>
-    <div class="site-footer">
-      <a href="https://ds.minor.fun:5001" target="_blank">DS3617</a>
-<a href="https://ds.minor.fun:8920" target="_blank">Jellyfin</a> | <a class="rss" href="https://zqws101.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">《钢琴艺术鉴赏》学习笔记</h2>
-            <div class="post-date">2020-01-29</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
             
-              <div class="feature-container" style="background-image: url('https://images.pexels.com/photos/1246437/pexels-photo-1246437.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940')">
-              </div>
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
             
-            <div class="post-content">
-              <p>钢琴艺术的体裁与形式</p>
-<!-- more -->
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="http://ds.minor.fun:8989/" class="menu gt-a-link" target="_blank">
+                            qBittorrent
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    《钢琴艺术鉴赏》学习笔记
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2020-01-29 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>钢琴艺术的体裁与形式</p>
 <h1 id="前奏曲prelude">前奏曲（Prelude）</h1>
-<p>前奏曲是一种小型的器乐曲。在15世纪，他是键盘乐器的第一种独立体裁，所以即兴、快速、短小成了前奏曲的基本特点。到18世纪，前奏曲成为真正的独立的带有即兴性质的的小型器乐曲。很多作曲家分辨创作了不同时期的钢琴前奏曲。<br>
-<code>比如《亚麻色头发的少女》《浓雾》《月照楼台》</code></p>
+<p>前奏曲是一种小型的器乐曲。在15世纪，他是键盘乐器的第一种独立体裁，所以即兴、快速、短小成了前奏曲的基本特点。到18世纪，前奏曲成为真正的独立的带有即兴性质的的小型器乐曲。很多作曲家分辨创作了不同时期的钢琴前奏曲。</p>
+<!-- more -->
+<p><code>比如《亚麻色头发的少女》《浓雾》《月照楼台》</code></p>
 <h1 id="托卡塔toccata">托卡塔（Toccata）</h1>
 <p>托卡塔愿意为“触技曲”也就是”触键技术曲“，起源于文艺复兴时期的意大利北部，是在前奏曲之后出现的又一个种最适合表现键盘乐汇到体裁，它一般速度较快、节奏均匀，具有炫技性，可以展示出演奏者手指的灵活。1590年，其标志为巴赫的《D小调托卡塔与赋格》BWV565、特点是无穷动式托卡塔。</p>
 <h1 id="变奏曲variation">变奏曲（Variation）</h1>
@@ -173,46 +171,48 @@
 即兴曲（Impromptu）<br>
 这是早期浪漫主义作曲家舒伯特创立的一种钢琴小品体裁，乐曲带有即兴创作的特点，结构短小、精炼，每一首都有鲜明的意境。舒伯特共创作了两组共8首即兴曲</p>
 
-            </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://zqws101.github.io/post/ce-shi-wen-zi">
-                  <h3 class="post-title">
-                    通过Github搭建网站，便捷访问群晖服务
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
-          </div>
-
+                </div>
+            </article>
         </div>
-      </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://zqws101.github.io/post/ce-shi-wen-zi" class="post-title gt-a-link">
+                    通过Github搭建网站，便捷访问群晖服务
+                </a>
+            </div>
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">孟返文的个人博客，集成有DS3617,Jellfyfin，QB远程下载</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
     </div>
+    <a href="https://ds.minor.fun:5001" target="_blank">DS3617</a>
+<a href="https://ds.minor.fun:8920" target="_blank">Jellyfin</a> | <a href="https://zqws101.github.io//atom.xml" target="_blank">RSS</a>
+</div>
 
-    <script src="https://cdn.bootcss.com/aos/3.0.0-beta.6/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+    hljs.initHighlightingOnLoad()
 </script>
 
 
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
