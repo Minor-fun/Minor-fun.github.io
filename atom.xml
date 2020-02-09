@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zqws101.github.io/</id>
+    <id>https://zqws101.coding.net/p/zqws101/git</id>
     <title>孟返文的个人博客</title>
-    <updated>2020-02-01T06:07:40.655Z</updated>
+    <updated>2020-02-09T08:54:00.976Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zqws101.github.io/"/>
-    <link rel="self" href="https://zqws101.github.io/atom.xml"/>
+    <link rel="alternate" href="https://zqws101.coding.net/p/zqws101/git"/>
+    <link rel="self" href="https://zqws101.coding.net/p/zqws101/git/atom.xml"/>
     <subtitle>孟返文的个人博客，记录点滴事迹。附带有DS3617,Jellfyfin，QB远程下载</subtitle>
-    <logo>https://zqws101.github.io/images/avatar.png</logo>
-    <icon>https://zqws101.github.io/favicon.ico</icon>
+    <logo>https://zqws101.coding.net/p/zqws101/git/images/avatar.png</logo>
+    <icon>https://zqws101.coding.net/p/zqws101/git/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟返文的个人博客</rights>
     <entry>
         <title type="html"><![CDATA[《钢琴艺术鉴赏》学习笔记]]></title>
-        <id>https://zqws101.github.io/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji</id>
-        <link href="https://zqws101.github.io/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji">
+        <id>https://zqws101.coding.net/p/zqws101/git/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji/</id>
+        <link href="https://zqws101.coding.net/p/zqws101/git/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji/">
         </link>
         <updated>2020-01-29T02:32:09.000Z</updated>
         <summary type="html"><![CDATA[<p>钢琴艺术的体裁与形式</p>
@@ -27,8 +27,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[通过Github搭建网站，便捷访问群晖服务]]></title>
-        <id>https://zqws101.github.io/post/ce-shi-wen-zi</id>
-        <link href="https://zqws101.github.io/post/ce-shi-wen-zi">
+        <id>https://zqws101.coding.net/p/zqws101/git/post/ce-shi-wen-zi/</id>
+        <link href="https://zqws101.coding.net/p/zqws101/git/post/ce-shi-wen-zi/">
         </link>
         <updated>2020-01-28T12:34:57.000Z</updated>
         <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。</p>
