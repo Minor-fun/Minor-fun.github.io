@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://caqd4x.coding-pages.com</id>
+    <id>https://zqws101.github.io</id>
     <title>孟返文的个人博客</title>
-    <updated>2020-03-19T12:58:23.429Z</updated>
+    <updated>2020-03-20T03:02:23.635Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://caqd4x.coding-pages.com"/>
-    <link rel="self" href="https://caqd4x.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="https://zqws101.github.io"/>
+    <link rel="self" href="https://zqws101.github.io/atom.xml"/>
     <subtitle>孟返文的个人博客，记录点滴事迹。附带有DS3617,Jellfyfin，QB远程下载</subtitle>
-    <logo>https://caqd4x.coding-pages.com/images/avatar.png</logo>
-    <icon>https://caqd4x.coding-pages.com/favicon.ico</icon>
+    <logo>https://zqws101.github.io/images/avatar.png</logo>
+    <icon>https://zqws101.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟返文的个人博客</rights>
     <entry>
         <title type="html"><![CDATA[TERA 神罗dps输出统计软件]]></title>
-        <id>https://caqd4x.coding-pages.com/post/tera-shen-luo-dps-shu-chu-tong-ji/</id>
-        <link href="https://caqd4x.coding-pages.com/post/tera-shen-luo-dps-shu-chu-tong-ji/">
+        <id>https://zqws101.github.io/post/tera-shen-luo-dps-shu-chu-tong-ji/</id>
+        <link href="https://zqws101.github.io/post/tera-shen-luo-dps-shu-chu-tong-ji/">
         </link>
         <updated>2020-03-19T05:36:06.000Z</updated>
         <summary type="html"><![CDATA[<p>tera 台服91版本神罗最新版本<br>
@@ -25,8 +25,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[《钢琴艺术鉴赏》学习笔记]]></title>
-        <id>https://caqd4x.coding-pages.com/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji/</id>
-        <link href="https://caqd4x.coding-pages.com/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji/">
+        <id>https://zqws101.github.io/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji/</id>
+        <link href="https://zqws101.github.io/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji/">
         </link>
         <updated>2020-01-29T02:32:09.000Z</updated>
         <summary type="html"><![CDATA[<p>钢琴艺术的体裁与形式</p>
@@ -40,8 +40,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[通过Github搭建网站，便捷访问群晖服务]]></title>
-        <id>https://caqd4x.coding-pages.com/post/ce-shi-wen-zi/</id>
-        <link href="https://caqd4x.coding-pages.com/post/ce-shi-wen-zi/">
+        <id>https://zqws101.github.io/post/ce-shi-wen-zi/</id>
+        <link href="https://zqws101.github.io/post/ce-shi-wen-zi/">
         </link>
         <updated>2020-01-28T12:34:57.000Z</updated>
         <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。</p>
