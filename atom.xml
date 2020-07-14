@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zqws101.github.io</id>
     <title>孟返文的个人博客</title>
-    <updated>2020-07-14T13:58:54.105Z</updated>
+    <updated>2020-07-14T13:59:22.575Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zqws101.github.io"/>
     <link rel="self" href="https://zqws101.github.io/atom.xml"/>
@@ -18,15 +18,11 @@
         <updated>2020-07-14T13:50:50.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="主要作曲家名字">主要作曲家名字</h1>
 <p>● J.S. Bach（巴赫）<br>
-● George Frideric Handel（亨德尔）<br>
-● Wolfgang Amadeus Mozart（莫扎特）<br>
-● Ludwig van Beethoven（贝多芬）</p>
+● George Frideric Handel（亨德尔）</p>
 ]]></summary>
         <content type="html"><![CDATA[<h1 id="主要作曲家名字">主要作曲家名字</h1>
 <p>● J.S. Bach（巴赫）<br>
-● George Frideric Handel（亨德尔）<br>
-● Wolfgang Amadeus Mozart（莫扎特）<br>
-● Ludwig van Beethoven（贝多芬）</p>
+● George Frideric Handel（亨德尔）</p>
 ]]></content>
     </entry>
     <entry>
