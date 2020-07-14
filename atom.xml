@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zqws101.github.io</id>
     <title>孟返文的个人博客</title>
-    <updated>2020-07-14T13:56:22.257Z</updated>
+    <updated>2020-07-14T13:57:45.131Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zqws101.github.io"/>
     <link rel="self" href="https://zqws101.github.io/atom.xml"/>
@@ -16,6 +16,18 @@
         <link href="https://zqws101.github.io/post/gang-qin-qu-ming-ming-chang-jian-xing-shi/">
         </link>
         <updated>2020-07-14T13:50:50.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="主要作曲家名字">主要作曲家名字</h1>
+<p>● J.S. Bach（巴赫）<br>
+● George Frideric Handel（亨德尔）<br>
+● Wolfgang Amadeus Mozart（莫扎特）<br>
+● Ludwig van Beethoven（贝多芬）</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="主要作曲家名字">主要作曲家名字</h1>
+<p>● J.S. Bach（巴赫）<br>
+● George Frideric Handel（亨德尔）<br>
+● Wolfgang Amadeus Mozart（莫扎特）<br>
+● Ludwig van Beethoven（贝多芬）</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[清醒梦的一些步骤]]></title>
@@ -23,6 +35,12 @@
         <link href="https://zqws101.github.io/post/qing-xing-meng-de-yi-xie-bu-zou/">
         </link>
         <updated>2020-04-20T06:21:31.000Z</updated>
+        <summary type="html"><![CDATA[<p>記夢，記住每次的細節<br>
+發現記號，意識到做夢 原路返回，看看位置是否正常</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>記夢，記住每次的細節<br>
+發現記號，意識到做夢 原路返回，看看位置是否正常</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[《钢琴艺术鉴赏》学习笔记]]></title>
