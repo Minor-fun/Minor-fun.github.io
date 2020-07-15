@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zqws101.github.io</id>
-    <title>孟返文的个人博客</title>
-    <updated>2020-07-15T02:20:54.925Z</updated>
+    <title>孟返文</title>
+    <updated>2020-07-15T02:21:30.098Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zqws101.github.io"/>
     <link rel="self" href="https://zqws101.github.io/atom.xml"/>
     <subtitle>孟返文的个人博客，记录点滴事迹。附带有DS3617,Jellfyfin，QB远程下载</subtitle>
     <logo>https://zqws101.github.io/images/avatar.png</logo>
     <icon>https://zqws101.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 孟返文的个人博客</rights>
+    <rights>All rights reserved 2020, 孟返文</rights>
     <entry>
         <title type="html"><![CDATA[钢琴曲命名常见形式]]></title>
         <id>https://zqws101.github.io/post/gang-qin-qu-ming-ming-chang-jian-xing-shi/</id>
