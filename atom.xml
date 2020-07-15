@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zqws101.github.io</id>
     <title>Minor</title>
-    <updated>2020-07-15T02:28:41.814Z</updated>
+    <updated>2020-07-15T02:30:15.126Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zqws101.github.io"/>
     <link rel="self" href="https://zqws101.github.io/atom.xml"/>
@@ -16,13 +16,11 @@
         <link href="https://zqws101.github.io/post/gang-qin-qu-ming-ming-chang-jian-xing-shi/">
         </link>
         <updated>2020-07-14T13:50:50.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="主要作曲家名字">主要作曲家名字</h1>
-<p>● J.S. Bach（巴赫）<br>
-● George Frideric Handel（亨德尔）</p>
+        <summary type="html"><![CDATA[<p>主要作曲家名字<br>
+● J.S. Bach（巴赫）</p>
 ]]></summary>
-        <content type="html"><![CDATA[<h1 id="主要作曲家名字">主要作曲家名字</h1>
-<p>● J.S. Bach（巴赫）<br>
-● George Frideric Handel（亨德尔）</p>
+        <content type="html"><![CDATA[<p>主要作曲家名字<br>
+● J.S. Bach（巴赫）</p>
 ]]></content>
     </entry>
     <entry>
@@ -45,12 +43,10 @@
         </link>
         <updated>2020-01-29T02:32:09.000Z</updated>
         <summary type="html"><![CDATA[<p>钢琴艺术的体裁与形式<br>
-前奏曲（Prelude）<br>
-前奏曲是一种小型的器乐曲。在15世纪，他是键盘乐器的第一种独立体裁，所</p>
+前奏曲（Prelude）</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>钢琴艺术的体裁与形式<br>
-前奏曲（Prelude）<br>
-前奏曲是一种小型的器乐曲。在15世纪，他是键盘乐器的第一种独立体裁，所</p>
+前奏曲（Prelude）</p>
 ]]></content>
     </entry>
     <entry>
@@ -59,9 +55,9 @@
         <link href="https://zqws101.github.io/post/ce-shi-wen-zi/">
         </link>
         <updated>2020-01-28T12:34:57.000Z</updated>
-        <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。</p>
+        <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，然后想到可以通过github来白嫖一个网站，用来做群晖的跳转。</p>
+        <content type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，</p>
 ]]></content>
     </entry>
 </feed>
