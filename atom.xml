@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Minor-fun.github.io</id>
     <title>Minor</title>
-    <updated>2020-08-11T16:52:14.331Z</updated>
+    <updated>2020-08-11T16:55:36.873Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Minor-fun.github.io"/>
     <link rel="self" href="https://Minor-fun.github.io/atom.xml"/>
@@ -10,13 +10,6 @@
     <logo>https://Minor-fun.github.io/images/avatar.png</logo>
     <icon>https://Minor-fun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Minor</rights>
-    <entry>
-        <title type="html"><![CDATA[2134213]]></title>
-        <id>https://Minor-fun.github.io/post/2134213/</id>
-        <link href="https://Minor-fun.github.io/post/2134213/">
-        </link>
-        <updated>2020-08-11T16:51:47.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[钢琴曲命名常见形式]]></title>
         <id>https://Minor-fun.github.io/post/gang-qin-qu-ming-ming-chang-jian-xing-shi/</id>
