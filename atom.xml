@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Minor-fun.github.io</id>
-    <title>Minor博客-minor.fun</title>
-    <updated>2021-01-15T12:47:15.942Z</updated>
+    <title>Minor博客</title>
+    <updated>2021-01-15T12:48:23.975Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Minor-fun.github.io"/>
     <link rel="self" href="https://Minor-fun.github.io/atom.xml"/>
     <subtitle>孟返文的个人博客，记录点滴事迹。附带有DS3617,Jellfyfin，QB远程下载</subtitle>
     <logo>https://Minor-fun.github.io/images/avatar.png</logo>
     <icon>https://Minor-fun.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Minor博客-minor.fun</rights>
+    <rights>All rights reserved 2021, Minor博客</rights>
     <entry>
         <title type="html"><![CDATA[钢琴曲命名常见形式]]></title>
         <id>https://Minor-fun.github.io/post/gang-qin-qu-ming-ming-chang-jian-xing-shi/</id>
