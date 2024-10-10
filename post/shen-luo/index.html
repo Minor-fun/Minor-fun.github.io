@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>群晖docker架设Minecraft JAVA服务器 支持mod 外网联机 | Minor博客</title>
+<meta name="description" content="孟返文的个人博客，记录点滴事迹。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Minor-fun.github.io/favicon.ico?v=1728529292681">
+<link rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://Minor-fun.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.bootcss.com/aos/3.0.0-beta.6/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Minor-fun.github.io">
+        <img src="https://Minor-fun.github.io/images/avatar.png?v=1728529292681" class="site-logo">
+        <h1 class="site-title">Minor博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="https://ds.minor.fun" class="site-nav" target="_blank">
+            Minor网盘
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      孟返文的个人博客，记录点滴事迹。
+    </div>
+    <div class="site-footer">
+      <a href="https://ds.minor.fun:9501" target="_blank">DS918</a>
+<a href="https://ds.minor.fun" target="_blank">网盘</a> | <a class="rss" href="https://Minor-fun.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">群晖docker架设Minecraft JAVA服务器 支持mod 外网联机</h2>
+            <div class="post-date">2024-01-01</div>
+            
+              <div class="feature-container" style="background-image: url('http://img.mp.itc.cn/upload/20161206/6e9f8a20569b437faf979907f7fe493b_th.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <p>朋友想要玩minecraft,由于我这边正好有群晖,和电信的公网ip所以索性用群晖的docker创建个minecraft的服务服务器,和朋友联机<br>
+以下是搭建minecraft服务器外网的要求<br>
+1、公网ip<br>
+2、域名<br>
+3、一个支持ddns的路由器<br>
+4、可以运行docker的服务器<br>
+一、docke创建容器<br>
+下面操作都是在群晖中完成<br>
+<img src="https://Minor-fun.github.io/post-images/1706159834700.png" alt="" loading="lazy"><br>
+打开群晖的docker<br>
+选择项目，点击左上角新增，设置项目名称、存储地点、来源选择创建yml文件<br>
+输入下列参数<br>
+services:<br>
+minecraft:<br>
+image: itzg/minecraft-server<br>
+container_name: &quot;MCServer&quot;<br>
+ports:<br>
+- &quot;25565:25565&quot;<br>
+volumes:<br>
+- &quot;/volume1/docker/mcserver:/data&quot; # 主要数据，包括存档数据等<br>
+environment:<br>
+SERVER_NAME: &quot;MCServer&quot;<br>
+EULA: &quot;TRUE&quot;<br>
+VERSION: &quot;1.20.4&quot; #(游戏版本号)<br>
+TYPE: &quot;FABRIC&quot; # Fabric 游戏mod版本<br>
+CONSOLE: &quot;false&quot; #某些旧版本（1.14 之前）的 Spigot 在分离 stdin 时需要传递<br>
+ENABLE_RCON: &quot;true&quot; #启用/禁用 RCON 支持<br>
+RCON_PASSWORD: &quot;mcserver&quot;<br>
+RCON_PORT: 28016<br>
+INIT_MEMORY: 1G # 初始内存大小<br>
+MAX_MEMORY: 8G # 最大内存限制<br>
+OVERRIDE_SERVER_PROPERTIES: &quot;true&quot;  #自定义服务器属性,<br>
+SNOOPER_ENABLED: &quot;false&quot; # 统计数据<br>
+VIEW_DISTANCE: 8 #加载区块范围，默认 10，建议 4~8<br>
+SEED: &quot;-505794890&quot; # 初始生成世界的种子<br>
+PVP: &quot;true&quot;<br>
+ONLINE_MODE: &quot;FALSE&quot; #正版校验开关<br>
+ALLOW_FLIGHT: &quot;FALSE&quot;  #允许用户在生存模式下在您的服务器上使用飞行<br>
+USE_AIKAR_FLAGS: &quot;true&quot; # G1GC优化参数<br>
+TZ: &quot;Asia/Shanghai&quot; # 设置时区<br>
+restart: unless-stopped<br>
+rcon:<br>
+image: itzg/rcon  # 服务器远程管理面板，具体使用自行百度<br>
+container_name: &quot;RCON&quot;<br>
+depends_on:<br>
+- minecraft<br>
+ports: #这两个端口都需要防火墙放行<br>
+- &quot;3000:4326&quot; # Web UI<br>
+- &quot;4327:4327&quot; # Connection from Web UI<br>
+volumes:<br>
+- &quot;/volume1/docker/mcrcon:/opt/rcon-web-admin/db&quot;<br>
+environment:<br>
+RWA_ENV: &quot;TRUE&quot;<br>
+RWA_ADMIN: &quot;TRUE&quot;<br>
+RWA_PASSWORD: &quot;mcadmin&quot;<br>
+RWA_RCON_HOST: &quot;MCServer&quot;<br>
+RWA_RCON_PASSWORD: &quot;mcserver&quot; # RCON server to control<br>
+RWA_RCON_PORT: 28016<br>
+restart: unless-stopped<br>
+这里我选择的游戏版本是java的minecraft 1.20.4 FABRIC mod版本，可以装mod,<br>
+你需要修改的有<br>
+1、/volume1/docker/mcserver:/data<br>
+/volume1/docker/mcserver需要你改成你自己想要存放mc服务器数据的路径<br>
+2、/volume1/docker/mcrcon:/opt/rcon-web-admin/db<br>
+/volume1/docker/mcrcon需要你改成你自己想要存放RCON数据的路径<br>
+其他关于游戏版本号、游戏的mod版本<br>
+内存的设置大小、地图的种子、G1GC优化参数，根据你的实际需求和情况来选择即可<br>
+如果你的机器配置比较低可以参考如下进行修改<br>
+<code>INIT_MEMORY: 1G # 初始内存大小设置成1G MAX_MEMORY: 2G # 最大内存限制设置成2G USE_AIKAR_FLAGS: &quot;false&quot; # 关闭优化</code><br>
+JVM_OPTS:-XX:+UseSerialGC #设置成SerialGC回收，此项需要你手动添加到环境变量设置里<br>
+详细的参数说明，请看官方文档Minecraft Server on Docker (Java Edition) (docker-minecraft-server.readthedocs.io)<br>
+修改完成创建后，容器会有两个镜像运行<br>
+<img src="https://Minor-fun.github.io/post-images/1706159934697.png" alt="" loading="lazy"><br>
+看到点开mcserver，查看日志<br>
+<img src="https://Minor-fun.github.io/post-images/1706159943223.png" alt="" loading="lazy"><br>
+看到下面的日志，即表示服务器创建运行成功<br>
+二、pc端下载启动器和启动游戏<br>
+这个时候来到你的pc客户端界面，下载HMCL的mc启动器hmcl.huangyuhui.net/download/<br>
+如果你没mc的客户端，需要下载一下对应的1.20.4客户端，然后创建一个离线账户<br>
+<img src="https://Minor-fun.github.io/post-images/1706159952490.png" alt="" loading="lazy"><br>
+点击启动<br>
+<img src="https://Minor-fun.github.io/post-images/1706159957338.png" alt="" loading="lazy"><br>
+点击多人游戏<br>
+<img src="https://Minor-fun.github.io/post-images/1706159963617.png" alt="" loading="lazy"><br>
+服务器地址填写你的群晖ip地址+端口号，比如我的群晖地址是192.168.173，加上上面的docker映射的25565端口，那这个地方就应该输入192.168.173:25565<br>
+如果你想要和朋友外网联机，你需要在路由器上配置你的动态ddns，具体请百度，教程很多。然后只需要在路由器的防火墙转发wan的25565端口到群晖即可<br>
+三、mod的安装和使用<br>
+如果你使用了和我一样的参数，想要添加mod，可以在docker映射的mc服务器的data目录下的mods文件夹下添加，然后重启mcserver容器即可，<br>
+mod的下载网址是Search mods - Modrinth，下载版本请选择1.20.4 FABRIC，不要选错了，<br>
+注意，有些mod是只需要在服务器端装，有些是装在客户端，有些是服务器端和客户端都要装，注意分辨<br>
+我发下我的mod安装路径演示一下，服务端安装的页面展示<br>
+<img src="https://Minor-fun.github.io/post-images/1706159977854.png" alt="" loading="lazy"><br>
+客户端安装的展示<br>
+<img src="https://Minor-fun.github.io/post-images/1706159984648.png" alt="" loading="lazy"><br>
+大功告成拉！</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Minor-fun.github.io/post/yi-shou-fei-chang-you-gan-hong-de-shi/">
+                  <h3 class="post-title">
+                    一首非常有感触的诗
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.bootcss.com/aos/3.0.0-beta.6/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>

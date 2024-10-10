@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Minor-fun.github.io</id>
+    <title>Minor博客</title>
+    <updated>2024-10-10T03:02:00.277Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Minor-fun.github.io"/>
+    <link rel="self" href="https://Minor-fun.github.io/atom.xml"/>
+    <subtitle>孟返文的个人博客，记录点滴事迹。</subtitle>
+    <logo>https://Minor-fun.github.io/images/avatar.png</logo>
+    <icon>https://Minor-fun.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Minor博客</rights>
+    <entry>
+        <title type="html"><![CDATA[群晖docker架设Minecraft JAVA服务器 支持mod 外网联机]]></title>
+        <id>https://Minor-fun.github.io/post/shen-luo/</id>
+        <link href="https://Minor-fun.github.io/post/shen-luo/">
+        </link>
+        <updated>2024-01-01T11:20:43.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一首非常有感触的诗]]></title>
+        <id>https://Minor-fun.github.io/post/yi-shou-fei-chang-you-gan-hong-de-shi/</id>
+        <link href="https://Minor-fun.github.io/post/yi-shou-fei-chang-you-gan-hong-de-shi/">
+        </link>
+        <updated>2021-01-31T16:50:44.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="江楼夕望招客"><code>**江楼夕望招客**</code></h1>
+<p>海天东望夕茫茫，山势川形阔复长。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="江楼夕望招客"><code>**江楼夕望招客**</code></h1>
+<p>海天东望夕茫茫，山势川形阔复长。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[钢琴曲命名常见形式]]></title>
+        <id>https://Minor-fun.github.io/post/gang-qin-qu-ming-ming-chang-jian-xing-shi/</id>
+        <link href="https://Minor-fun.github.io/post/gang-qin-qu-ming-ming-chang-jian-xing-shi/">
+        </link>
+        <updated>2020-07-14T13:50:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>主要作曲家名字<br>
+● J.S. Bach（巴赫）</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>主要作曲家名字<br>
+● J.S. Bach（巴赫）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《钢琴艺术鉴赏》学习笔记]]></title>
+        <id>https://Minor-fun.github.io/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji/</id>
+        <link href="https://Minor-fun.github.io/post/lesslessgang-qin-yi-zhu-jian-shang-greatergreater-xue-xi-bi-ji/">
+        </link>
+        <updated>2020-01-29T02:32:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>钢琴艺术的体裁与形式<br>
+前奏曲（Prelude）</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>钢琴艺术的体裁与形式<br>
+前奏曲（Prelude）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[通过Github搭建网站，便捷访问群晖服务]]></title>
+        <id>https://Minor-fun.github.io/post/ce-shi-wen-zi/</id>
+        <link href="https://Minor-fun.github.io/post/ce-shi-wen-zi/">
+        </link>
+        <updated>2020-01-28T12:34:57.000Z</updated>
+        <summary type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>由于家庭宽带已经被关闭80，443端口，想要通过域名访问，只有另外购买服务器，</p>
+]]></content>
+    </entry>
+</feed>
